@@ -1,0 +1,52 @@
+/* line 10, ../../app/assets/stylesheets/main.css.scss */
+body {
+  font-family: "Verdana", sans-serif;
+  color: black;
+  background-color: #fcfdff;
+}
+/* line 14, ../../app/assets/stylesheets/main.css.scss */
+body > header {
+  background-color: #061c31;
+  height: 200px;
+}
+/* line 17, ../../app/assets/stylesheets/main.css.scss */
+body > header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 25, ../../app/assets/stylesheets/main.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans Condensed", sans-serif;
+  border: none;
+  padding: 0;
+  font-weight: normal;
+  text-align: left;
+  color: #061c31;
+  margin: 0;
+}
+
+/* line 36, ../../app/assets/stylesheets/main.css.scss */
+p {
+  font-family: "Verdana", sans-serif;
+}
+
+/* line 40, ../../app/assets/stylesheets/main.css.scss */
+html {
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #fcfdff;
+  background-repeat: repeat-y repeat-x;
+}
+
+/* line 47, ../../app/assets/stylesheets/main.css.scss */
+a {
+  display: block;
+  text-decoration: none;
+  color: #061c31;
+}
+/* line 51, ../../app/assets/stylesheets/main.css.scss */
+a:hover {
+  text-decoration: none;
+}

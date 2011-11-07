@@ -1,0 +1,54 @@
+$logo-white: #FCFDFF;
+$logo-lightblue: #9dddf9;
+$logo-darkblue: #061c31;
+$attention-red: #A1E1E1;
+
+$shorttext: 'Open Sans Condensed', sans-serif;
+$longtext: 'Verdana', sans-serif;
+
+body
+{
+	font-family: $longtext;
+	color: black;
+  background-color: $logo-white;
+  > header {
+    background-color: $logo-darkblue;
+    height: 200px;
+    > img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+      }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {  
+  font-family: $shorttext;
+	border: none;
+	padding: 0;
+	font-weight: normal;
+  text-align: left;
+  color: $logo-darkblue;
+	margin: 0;
+}
+
+
+p {
+  font-family: $longtext;
+}
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+  background-color: $logo-white;
+  background-repeat: repeat-y repeat-x;
+ }
+ 
+a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: $logo-darkblue;
+ 	&:hover {
+ 		text-decoration: none;
+ 	}
+}
