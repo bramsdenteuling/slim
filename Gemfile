@@ -5,7 +5,9 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+#db
+gem 'mongoid', '>2.0.2'
+gem 'bson_ext'
 
 
 # Gems used only for assets and not required
@@ -26,6 +28,12 @@ gem 'jquery-rails'
 # Use unicorn as the web server
 # gem 'unicorn'
 gem 'thin'
+
+gem 'redcarpet'
+gem 'mail_form'
+gem 'markerb'
+gem 'simple_form'
+gem 'mongoid_slug'
 
 # Deploy with Capistrano
 # gem 'capistrano'

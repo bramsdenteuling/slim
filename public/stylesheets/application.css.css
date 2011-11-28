@@ -288,16 +288,17 @@ body {
 /* line 14, ../../app/assets/stylesheets/main.css.scss */
 body > header {
   background-color: #061c31;
-  height: 200px;
+  height: 100px;
+  margin-bottom: 50px;
 }
-/* line 17, ../../app/assets/stylesheets/main.css.scss */
+/* line 18, ../../app/assets/stylesheets/main.css.scss */
 body > header > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 25, ../../app/assets/stylesheets/main.css.scss */
+/* line 26, ../../app/assets/stylesheets/main.css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans Condensed", sans-serif;
   border: none;
@@ -308,12 +309,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* line 36, ../../app/assets/stylesheets/main.css.scss */
+/* line 37, ../../app/assets/stylesheets/main.css.scss */
 p {
   font-family: "Verdana", sans-serif;
 }
 
-/* line 40, ../../app/assets/stylesheets/main.css.scss */
+/* line 41, ../../app/assets/stylesheets/main.css.scss */
 html {
   height: 100%;
   overflow-y: scroll;
@@ -321,13 +322,13 @@ html {
   background-repeat: repeat-y repeat-x;
 }
 
-/* line 47, ../../app/assets/stylesheets/main.css.scss */
+/* line 48, ../../app/assets/stylesheets/main.css.scss */
 a {
   display: block;
   text-decoration: none;
   color: #061c31;
 }
-/* line 51, ../../app/assets/stylesheets/main.css.scss */
+/* line 52, ../../app/assets/stylesheets/main.css.scss */
 a:hover {
   text-decoration: none;
 }
